@@ -1,0 +1,22 @@
+body {
+  background-color: bisque;
+}
+h1 {
+  color: rgb(40, 9, 43);
+}
+ul {
+  color: maroon;
+}
+ol {
+  color: black;
+}
+
+form {
+  background-color: rgb(160, 143, 175);
+}
+input {
+  background-color: aquamarine;
+}
+select {
+  background-color: aquamarine;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .nav {
+        border: 2px solid;
+        border-radius: 4px;
+        background-color: black;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .text {
+        font-size: 20px;
+        color: aliceblue;
+      }
+      .content {
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .parent {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+      }
+      .child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: auto;
+        width: 40%;
+        background-color: #64ffda;
+        border: 1px solid black;
+      }
+      .image {
+        border-radius: 100px;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+      }
+      .gchild {
+        margin-top: 20px;
+        border: 1px solid black;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .gchild p {
+        text-align: center;
+      }
+      .gchild h3 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div">
+      <nav class="nav">
+        <div class="content">
+          <strong class="text">home</strong>
+          <strong class="text">about us</strong>
+          <strong class="text">more</strong>
+        </div>
+      </nav>
+      <div class="parent">
+        <div class="child">
+          <img
+            class="image"
+            src="https://wallpapercave.com/wp/wp3400419.png"
+            alt="INDIAN FLAG"
+          />
+          <div class="gchild">
+            <h3>India</h3>
+            <p>Indian national flag</p>
+            <p>currency: Indian Rupee INR</p>
+            <p>Capitol: New Delhi</p>
+            <p>President: Droupadi Murmu</p>
+            <p>No.of States: 28 States and 8 Union territories</p>
+            <p>Prime Minister: Narendra Modi</p>
+            <p>Largest City: Mumbai <br />Delhi (Metropolitan area)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart Login Page</title>
+    <style>
+      .main-container {
+        background-color: #fff;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .inner-container1 {
+        background-color: #2874f0;
+        color: #fff;
+        width: 25%;
+        height: 500px;
+        background-image: url(/flipkart-login-768x495.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: content-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        box-shadow: 0 2px 3px rgba(0, 0, 0.2);
+      }
+      .inner-container2 {
+        width: 40%;
+        height: 500px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 0 2px 3px rgba(0, 0, 0.2);
+      }
+      .babu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .babu input {
+        border: 1px solid black;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 80%;
+      }
+      .sona {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .sona a {
+        color: #2874f0;
+        text-decoration: none;
+        margin-left: 10px;
+      }
+      .sona input {
+        width: 70%;
+        border: 1px solid black;
+        border: none;
+        border-bottom: 1px solid black;
+      }
+      .lb {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .lb input {
+        font-size: 15px;
+        color: aliceblue;
+        border: 1px solid black;
+        border: none;
+        background-color: #fb641b;
+        cursor: pointer;
+        height: 50px;
+        width: 69%;
+      }
+      .or {
+        color: gray;
+      }
+      .otp {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .otp input {
+        background-color: white;
+        color: #2874f0;
+        font-weight: 50px;
+        cursor: pointer;
+        border: 1px solid black;
+        height: 30px;
+        width: 80%;
+        border: 1px solid black;
+        border: none;
+        border-bottom: 1px solid black;
+        box-shadow: 0 2px 3px rgba(0, 0, 0.2);
+      }
+      .footer p a {
+        color: #2874f0;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="inner-container1">
+        <div class="header">
+          <h2>Login</h2>
+          <p>
+            Get access to your Orders,<br />
+            Wishlist and Recommendations
+          </p>
+        </div>
+      </div>
+      <div class="inner-container2">
+        <div class="babu">
+          <input
+            id=""
+            type="email"
+            name=""
+            id=""
+            placeholder="Enter Email/Mobile Number"
+          />
+        </div>
+        <div class="sona">
+          <input type="password" name="" id="" placeholder="Enter Password" />
+          <span><a href="#">Forgot?</a></span>
+        </div>
+
+        <div class="lb">
+          <input type="submit" value="Login" />
+        </div>
+        <div class="or">
+          <p>OR</p>
+        </div>
+        <div class="otp">
+          <input type="reset" value="Request OTP" />
+        </div>
+        <div class="footer">
+          <p id="footer-para">
+            <a href="#">New to Flipkart? create an Account</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

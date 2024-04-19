@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+        background-color: chocolate;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+      }
+      .backimg {
+        background-image: url(https://cdn.pixabay.com/photo/2015/05/11/11/46/fried-rice-762362_1280.jpg);
+        border-radius: 10px;
+        height: 80vh;
+        width: 70vw;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+      }
+      .regInfo {
+        background-color: aliceblue;
+        height: 80vh;
+        width: 50vw;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .regInfo input {
+        width: 70%;
+        border: 1px solid;
+        border: none;
+        border-bottom: 2px solid;
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="backimg">
+      <div class="container">
+        <div class="regInfo">
+          <h3>REGISTRATION INFO</h3>
+          <input type="text" name="" id="" placeholder="Name" />
+          <br />
+          <input type="date" name="Birthdate" id="" placeholder="" />
+
+          <input type="radio" name="" id="" placeholder="Gender" />
+
+          <label for="">Gender</label>
+          <input type="radio" name="" id="" />
+          <label for="">Male</label>
+          <br />
+
+          <input type="number" name="" id="" placeholder="Class" />
+          <br />
+
+          <input type="text" placeholder="Registration Code" />
+          <br />
+          <input type="submit" value="Submit" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

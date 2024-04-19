@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        /* background-color: black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100vw;
+        height: 100vh;
+        background-image: url("./istockphoto-625874922-1024x1024.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white;
+      }
+      p {
+        color: white;
+      }
+      .navbar {
+        position: fixed;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: yellow;
+        color: blueviolet;
+        align-items: center;
+      }
+      .navbar ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+      }
+      .navbar li a {
+        border: solid 1px;
+        border-radius: 10px;
+        padding: 4px;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 0 4px 5px rgba(0, 0, o.3);
+        text-decoration: none;
+        margin: 0 10px;
+        color: black;
+        background-color: aquamarine;
+        font-family: cursive;
+        transition: all 250ms ease-in-out;
+      }
+      .navbar li a:hover {
+        background-color: orangered;
+      }
+      /* .navbar li a:hover {
+        color: brown;
+      } */
+
+      #search {
+        color: black;
+        margin-right: 5px;
+        border-radius: 10px;
+        padding: 5px;
+        border: 0;
+        box-shadow: 0 4px 5px rgba(0, 0, 0.3);
+      }
+      .content {
+        width: 100%;
+        height: 20%;
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul class="navcont">
+        <li><a href="websitenav.html">Home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">contact us</a></li>
+      </ul>
+      <input
+        type="search"
+        name="Search"
+        id="search"
+        placeholder="Search here"
+      />
+    </div>
+    <div class="content">
+      <h2>welcome to our website</h2>
+    </div>
+  </body>
+</html>
